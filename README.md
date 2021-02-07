@@ -1,6 +1,12 @@
 # Tailwind
 
+For start copy:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+to styles.css
 
+npx tailwindcss init --full - generate config file
 
 rounded
 shadow
