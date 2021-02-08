@@ -1,20 +1,19 @@
 # Tailwind
+___
+For start - copy:  
+*@tailwind base;*  
+*@tailwind components;*  
+*@tailwind utilities;*  
+into styles.css
 
-For start copy:
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-to styles.css
+**npx tailwindcss init --full** - generate config file  
+scripts: "build-css": "**tailwindcss build src/styles.css -o public/styles.css**"
 
-npx tailwindcss init --full - generate config file
-
-rounded
-shadow
-
-p-2
-
-bg-white
-text-red-400
+rounded  
+shadow  
+p-2  
+bg-white  
+text-red-400  
 
 
 ###Font Size
@@ -29,10 +28,11 @@ text-red-400
 - text-9xl
 
 ###Colors
-100 - 900
+50,100 - 900
 
 ###Font width
 - fond-bold
 - font-semibold
 - font-light
 - uppercase
+- font-serif, font-mono, font-sans
