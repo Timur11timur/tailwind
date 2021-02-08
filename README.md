@@ -60,3 +60,13 @@ text-red-400
 - relative  
 - absolute
 - top-0
+
+###Transition
+- transition 
+- ease-out 
+- duration-500
+
+###Transform
+- transform 
+- hover:scale-125 - +25%
+- hover:bg-opacity-50 -  50%
