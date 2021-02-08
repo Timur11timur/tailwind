@@ -35,7 +35,8 @@ text-red-400
 ###Font width
 - fond-bold
 - font-semibold
-- font-light
+- font-light 
+- tracking-wider - растояние между буквами
 - uppercase
 - font-serif, font-mono, font-sans
 
