@@ -43,6 +43,11 @@ text-red-400
 - justify-between
 - items-center
 
+### Grid
+- grid-cols-3 - количество колонок  
+- col-span-2 - количество занимаемых колонок
+- gap-10 - растояние между колонками и столбцами
+
 ###Media
 - 'sm': {'min': '640px', 'max': '767px'},
 - 'md': {'min': '768px', 'max': '1023px'},
