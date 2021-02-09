@@ -4,7 +4,8 @@
   "description": "rounded shadow",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build": "tailwindcss build src/styles.css -o public/styles.css",
+    "prod": "cross-env NODE_ENV=production tailwindcss build src/styles.css -o public/styles.css"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/Timur11timur/tailwind#readme",
   "dependencies": {
     "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
